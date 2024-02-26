@@ -425,7 +425,24 @@ transition: var(--transition-duration-quick) var(--transition-duration-quick);
   #HERO
 \*-----------------------------------*/
 
+.hero-banner {
+  display: none;
+}
 
+.hero {
+  position: relative;
+  background-image: var(--gradient);
+  color: var(--neutral-90);
+  padding-block: 130px 60px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-title {
+  color: var(--neutral-100);
+}
+
+.hero-text {margin-block: 16px 32px;}
 
 
 
